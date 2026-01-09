@@ -4,7 +4,20 @@
 
 ## Overview
 
-This repository is part of the ShareBridge project - a platform for dignified charitable giving.
+This repository contains **CI/CD pipelines and deployment automation** for continuous integration and delivery of ShareBridge services.
+
+**Key Responsibilities:**
+- 🔄 Automated build pipelines (GitHub Actions)
+- 🧪 Automated testing (unit, integration, e2e)
+- 🐳 Docker image building and registry management
+- 🚀 Automated deployment to Kubernetes
+- 🔀 Blue-green and canary deployment strategies
+- 🔙 Rollback automation on failure
+- 🔐 Secret management and injection
+- 📊 Deployment monitoring and alerts
+- 🏷️ Version tagging and release management
+
+**Technology Stack:** GitHub Actions, Docker, Kubernetes (kubectl/Helm), ArgoCD (GitOps)
 
 For overall project context, see the [main ShareBridge repository](https://github.com/sharebridge/sharebridge).
 
